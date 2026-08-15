@@ -32,7 +32,7 @@ kubectl apply -f pod.yaml
 ### Question 3: Check the Status of the Pod
 To check the status of the pod, use the following command:
 ```
-kubectl get po
+kubectl get pod
 ```
 
 This command will display the current state and details of all pods in the cluster.
