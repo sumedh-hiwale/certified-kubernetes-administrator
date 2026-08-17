@@ -3,7 +3,7 @@
 This readme file provides information and practical examples regarding the usage of commands and arguments in Kubernetes. 
 
 ## Create a Pod with Commands and Arguments
-- To create a pod named demo-pod with the Debian image and use the printenv HOSTNAME command:
+- To create a pod named demo-pod with the nginx image and use the printenv HOSTNAME command:
 ```
 kubectl run demo-pod --image=nginx --command -- printenv HOSTNAME
 ```
