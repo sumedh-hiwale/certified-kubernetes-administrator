@@ -5,7 +5,7 @@ This readme file provides information and practical examples regarding the usage
 ## Create a Pod with Commands and Arguments
 - To create a pod named demo-pod with the Debian image and use the printenv HOSTNAME command:
 ```
-kubectl run demo-pod --image=debian --command -- printenv HOSTNAME
+kubectl run demo-pod --image=nginx --command -- printenv HOSTNAME
 ```
 
 ## Apply YAML File and Checking Pod Status
