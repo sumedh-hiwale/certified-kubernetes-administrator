@@ -1,5 +1,4 @@
 # Environment Variables in Kubernetes
-In this video, we will be discussing how to use environment variables in Kubernetes to configure your applications. Environment variables allow you to store configuration data separately from your application code, making it easier to manage and update your application.
 
 ## Prerequisites
 Before getting started, you will need to have the following:
@@ -31,7 +30,7 @@ kubectl logs <pod-name>
 
 ### Step 5: To print the environment variables of a pod, run the following command:
 ```
-kubectl exec <pod-name> -- printenv
+kubectl exec -it <pod-name> -- printenv
 ```
 
 ## Conclusion
